@@ -1,0 +1,256 @@
+\documentclass[letterpaper,12pt,leqno]{article}
+\usepackage{paper}
+\bibliographystyle{bibliography}
+
+% Enter paper title:
+\hypersetup{pdftitle={Paper Example}}
+
+% Enter permanent URL to paper
+\available{https://github.com/pmichaillat/latex-paper}
+
+% Enter BibTeX file with references:
+\newcommand{\bib}{bibliography.bib}
+
+% Enter PDF file with figures here:
+\newcommand{\pdf}{figures.pdf}
+
+% Fill out paper:
+\begin{document}
+\title{Paper Title}
+\author{Author 1, Author 2
+\thanks{Author 1: University 1. Author 2: University 2. We thank many colleagues for helpful comments and discussions. This work was supported by the a generous grant [grant number]; and another generous foundation.}}
+\date{Month Year}                       
+\begin{titlepage}\maketitle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\end{titlepage}\section{Introduction}\label{s:introduction}
+ 
+\paragraph{Research question} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\footnote{Excepteur sint, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+
+\paragraph{Positioning in the literature} Lorem ipsum dolor sit amet \citep{MS15}, consectetur adipiscing elit \citep[p. 1305]{MS19}, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \citet{M12,M14} enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \citeauthor{EMM21} aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\footnote{In reprehenderit in eu fugiat nulla pariatur \citep{LMS18a}.}
+
+\paragraph{Answer to the question} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\footnote{Sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident. Sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident.} Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+
+\paragraph{Another paragraph} Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipiscing velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.
+
+\section{Section title}\label{s:section}
+
+Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. 
+
+\subsection{Subsection title}
+
+Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipiscing velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. 
+
+\subsection{Subsection with lists}\label{s:lists}
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint.
+
+\paragraph{Itemized lists} Oobcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Here is a list:
+\begin{itemize}
+ 	\item Et harum quidem rerum facilis est et expedita distinctio.
+ 	\item Nam libero tempore, cum soluta nobis est eligendi optio.
+ 	\item emporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.
+ 		\begin{itemize}
+ 			\item cumque nihil impedit
+ 			\item quo minus id, quod maxime placeat
+ 			\item facere possimus, omnis voluptas assumenda est
+ 		\end{itemize}
+\end{itemize}
+
+\paragraph{Numbered lists} Omnis dolor repellendus. And here is a numbered list:
+\begin{enumerate}
+ 	\item Et harum quidem rerum facilis est et expedita distinctio.
+ 	\item Nam libero tempore, cum soluta nobis est eligendi optio.
+ 	\item emporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.
+	\begin{enumerate}
+ 			\item cumque nihil impedit
+ 			\item quo minus id, quod maxime placeat
+ 			\item facere possimus, omnis voluptas assumenda est
+ 	\end{enumerate}
+\end{enumerate}
+Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. 
+
+\subsection{Another subsection with text}
+
+Sed ut perspiciatis, as showed in section \ref{s:lists}, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipiscing velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem in section \ref{s:graphs}.
+
+\subsection{Some math and theorems} 
+
+\begin{proposition}\label{p:type1}  Lorem ipsum dolor sit amet $z \in \mathbb{R}$, consectetur adipiscing elit
+\begin{equation}
+\bm{S}^*(z) = \frac{S(z)}{23 -\zeta\gamma [45- S(z)] + \ln(y)}.
+\label{e:type1}\end{equation}
+Ut enim ad minim veniam, sunt in culpa qui officia deserunt mollit anim id est laborum:
+\begin{equation}
+\mathcal{S}^*(z) = S(z) \times \mathbb{E}(N(z)) + \alpha \beta - \sum_{i=0}^{+\infty}\mathcal{F}^{i}-\exp(\lambda \mu).
+\label{e:type1steps}\end{equation}
+\end{proposition}
+
+\begin{proof} There is a simple proof to this result. It gives equation \eqref{e:type1steps}.\end{proof} 
+
+Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur $\bm{\alpha(X)}$. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum \eqref{e:type1}, excepteur sint occaecat cupidatat non proident $z^*$:
+\begin{equation*}
+\frac{\mathcal{S}(z^*)}{1 -\theta + \theta \mathcal{S}(z^*)} = \sum_{i=0}^{+\infty}F^{i} - \Lambda(i).
+\end{equation*}
+From this definition we obtain the following results (details of the proof are relegated to appendix~\ref{a:appendix1}):
+
+\begin{lemma}\label{p:cv} Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat $\alpha$:
+\begin{equation}
+z^* = \int_{0}^{\infty} \alpha(i) \cdot \frac{1-\beta}{1-\alpha(i)\beta}\,di.
+\label{e:cv}\end{equation}
+Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua $\mathcal{Z}(\alpha)$. \end{lemma}
+
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Combining equation \eqref{e:cv} with other results, we obtain the following corollary (the proof is in appendix~\ref{a:subappendix}): 
+
+\begin{corollary} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua:
+\begin{equation*}
+\mathbb{E}(N(z^*)) \approx \frac{1-\mathbb{P}(\alpha\pi)}{1-\pi}- \frac{f(y)}{z(p)^*} +P(\Gamma).
+\end{equation*}\end{corollary}
+
+\section{Section with graphs}\label{s:graphs}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+\subsection{Subsection with graphs}
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+
+\paragraph{Paragraph title} Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. 
+
+\paragraph{Another paragraph} Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Figure~\ref{f:graph1} depicts the result.
+
+
+\begin{figure}[t]
+\subcaptionbox{Caption for first panel\label{f:panel1}}{\includegraphics[scale=\sfig,page=1]{\pdf}}\hfill
+\subcaptionbox{Caption for second panel\label{f:panel2}}{\includegraphics[scale=\sfig,page=2]{\pdf}}
+\caption{Caption for the graph}
+\note{Note for the graph. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus.}
+\label{f:graph1}\end{figure}
+
+\paragraph{Another result in a panel} Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Figure \ref{f:panel1} displays cum soluta nobis est eligendi optio, cumque nihil impedit. Quod maxime placeat, facere possimus, omnis voluptas assumenda est in figure \ref{f:panel2}.
+
+\subsection{A full-page graphs}
+
+A full-page graph is on figure \ref{f:graph2}. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+
+\begin{figure}[p]
+\subcaptionbox{Caption for panel}{\includegraphics[scale=\sfig,page=1]{\pdf}}\hfill
+\subcaptionbox{Caption for panel}{\includegraphics[scale=\sfig,page=2]{\pdf}}\vfig
+\subcaptionbox{Caption for panel}{\includegraphics[scale=\sfig,page=3]{\pdf}}\hfill
+\subcaptionbox{Caption for panel}{\includegraphics[scale=\sfig,page=4]{\pdf}}\vfig
+\subcaptionbox{Caption for panel}{\includegraphics[scale=\sfig,page=5]{\pdf}}\hfill
+\subcaptionbox{Caption for panel}{\includegraphics[scale=\sfig,page=1]{\pdf}}
+\caption{Caption for the graph}
+\note{Note for the graph. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat from \citet[section 3]{MS22b}.}
+\label{f:graph2}\end{figure}
+
+
+\paragraph{Another paragraph} At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. 
+
+\paragraph{Yet another paragraph} At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. 
+
+\section{A section with table}
+
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. 
+
+\subsection{A subsection title}
+
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Table \ref{t:table} shows many things.
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+
+\begin{table}[t]
+\caption{Caption for the table}
+\begin{tabular*}{\textwidth}[]{p{3.3cm}@{\extracolsep\fill}cccc}
+\toprule
+& Timeline & Natural rate & Monetary  & Government \\
+&  & of interest &  policy & spending\\
+\midrule
+\multicolumn{5}{l}{A. Qui dolorem eum fugiat}\\
+ZLB: & $t\in (0,T) $ & $r^n<0$ & $i=0$  & -- \\
+Normal times: & $t>T$ &  $r^n>0$ & $i= r^n + \phi \pi$  & --   \\
+\midrule
+\multicolumn{5}{l}{B. Nam libero tempore, cum soluta nobis}\\
+ZLB: & $t\in (0,T)$ & $r^n<0$ & $i=0$  & -- \\
+Forward guidance: & $t\in (T,T+\Delta)$ & $r^n>0$ & $i=0$  & --\\
+Normal times: & $t>T+\Delta$ & $r^n>0$ & $i= r^n + \phi \pi$  & -- \\
+\midrule
+\multicolumn{5}{l}{C. At vero eos et accusamus}\\
+ZLB: & $t\in (0,T) $ & $r^n<0$ & $i=0$  & $g>0$  \\
+Normal times: & $t>T$ & $r^n>0$ & $i= r^n + \phi \pi$  & $g=0$   \\
+\bottomrule
+\end{tabular*}
+\note{Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat \citep[table 1]{MS21a}.}
+\label{t:table}\end{table}
+
+\subsection{Another subsection title}
+
+Qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat (figure~\ref{f:graph2}).
+
+\section{Conclusion}\label{s:ccl}
+
+To conclude, at vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint.
+
+\bibliography{\bib}
+
+% Fill out appendix:
+\newpage
+\appendix
+\section{Appendix title}\label{a:appendix1}
+
+We extend the model of section~\ref{s:section} by introducing a quadratic cost. Obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+
+\subsection{Subsection title} 
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+
+\subsection{Another subsection}
+
+ Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus \citep{MS22a}. A corrolary in the appendix is as follows:
+
+\begin{corollary} Similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga:
+\begin{equation*}
+\mathbb{E}(\Omega) = \mathbb{P}(\omega\cdot \mu - \xi) - \sum_{i=0}^{m}\sum_{j=-\infty}^{n} \sigma(i,j) + 123^{56}.
+\end{equation*}\end{corollary}
+
+\paragraph{A paragraph with some math} Temporibus autem quibusdam $\xi$ et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae $1-\gamma$. Itaque earum rerum hic $S(z^*)$ tenetur a sapiente delectus $\mathcal{B}^\theta$, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat $\mathcal{V}^i$. Aggregating these scenarios, we obtain the continuation value:
+\begin{equation}
+\mathbb{V}^r = (1-\gamma) \times 0 +\gamma S(z^*) v^s+\gamma [1-S(z^*)] \mathcal{V}^i-c.
+\label{e:appendix1}\end{equation}
+
+\paragraph{Paragraph with links to appendix equations} Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur $\mathcal{C}$? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Equation \eqref{e:appendix1} shows that autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+
+\subsection{Larger figure, without panel, in the appendix} 
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga in figure \ref{f:appendix1}.
+
+\begin{figure}[t]
+\includegraphics[scale=\mfig,page=1]{\pdf}
+\caption{Caption for the larger graph}
+\note{Note for the larger graph. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus.}
+\label{f:appendix1}\end{figure}
+
+\section{Another section}\label{a:appendix2}
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti.
+
+\subsection{Even larger figure, without panel, in the appendix} 
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga, as showed in figure \ref{f:appendix2}.
+
+\begin{figure}[t]
+\includegraphics[scale=\lfig,page=3]{\pdf}
+\caption{Caption for the even larger graph}
+\note{Note for the larger graph. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus.}
+\label{f:appendix2}\end{figure}
+
+
+\subsection{Final subsection with footnote and references}\label{a:subappendix}
+
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt $\mathcal{V}^i > \mathcal{V}^r$ \citep{MS21b}.\footnote{The reference goes to the reference list at the end of the main text.} Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. This results are summarized in a repository with the following URL: \url{https://github.com/pmichaillat/latex-paper}.
+
+
+\end{document}

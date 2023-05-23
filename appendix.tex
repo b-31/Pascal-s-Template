@@ -1,0 +1,94 @@
+\documentclass[letterpaper,12pt,leqno]{article}
+\usepackage{paper,appendix}
+\bibliographystyle{bibliography}
+
+% Enter paper title:
+\hypersetup{pdftitle={Paper Title: Online Appendices}}
+
+% Enter journal of publication and permanent URL to paper
+\published{Journal Name}{https://github.com/pmichaillat/latex-paper}
+
+% Enter BibTeX file with references:
+\newcommand{\bib}{bibliography.bib}
+
+% Enter PDF file with figures here:
+\newcommand{\pdf}{figures.pdf}
+
+% Enter TeX file with the main text so references can be used in appendix:
+\externaldocument{paper}
+
+% Fill out online appendix:
+\begin{document}
+\title{Paper Title: Online Appendices}
+\author{Author 1, Author 2}
+\date{Month Year}
+\begin{titlepage}
+\maketitle
+\tableofcontents
+\end{titlepage}
+
+
+\section{Appendix title}\label{a:appendix1}
+
+We extend the model of section~\ref{s:section} by introducing a quadratic cost. Obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+
+\subsection{Subsection title} 
+
+The references from the paper file are available in the appendix as long as the appendix is compiled after the paper and intermediary LaTeX-related files are not deleted.
+
+\begin{itemize}    
+    \item Equation \ref{e:type1} was very helpful.
+    \item Figure \ref{f:graph1} provided a lot of information---especially the plot on figure \ref{f:panel2}. 
+\end{itemize}  
+
+\subsection{Another subsection}
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+
+\subsection{Yet another subsection}
+
+Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus \citep{MS22a}. A corrolary in the appendix is as follows:
+
+\begin{corollary} Similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga:
+\begin{equation*}
+\mathbb{E}(\Omega) = \mathbb{P}(\omega\cdot \mu - \xi) - \sum_{i=0}^{m}\sum_{j=-\infty}^{n} \sigma(i,j) + 123^{56}.
+\end{equation*}\end{corollary}
+
+\paragraph{Paragraph with some math} Temporibus autem quibusdam $\xi$ et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae $1-\gamma$. Itaque earum rerum hic $S(z^*)$ tenetur a sapiente delectus $\mathcal{B}^\theta$, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat $\mathcal{V}^i$. Aggregating these scenarios, we obtain the continuation value:
+\begin{equation}
+\mathbb{V}^r = (1-\gamma) \times 0 +\gamma S(z^*) v^s+\gamma [1-S(z^*)] \mathcal{V}^i-c.
+\label{e:appendix1}\end{equation}
+
+\paragraph{Paragraph with links to appendix equations} Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur $\mathcal{C}$? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Equation \eqref{e:appendix1} shows that autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+
+\subsection{A larger figure, without panel, in the appendix} 
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. This is showed in figure \ref{f:appendix1}.
+
+\begin{figure}[t]
+\includegraphics[scale=\mfig,page=1]{\pdf}
+\caption{A caption for the larger graph}
+\note{A note for the larger graph. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus.}
+\label{f:appendix1}\end{figure}
+
+\section{Another appendix}\label{a:appendix2}
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti.
+
+\subsection{Even larger figure, without panel, in the appendix} 
+
+At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga, as showed in figure \ref{f:appendix2}.
+
+\begin{figure}[t]
+\includegraphics[scale=\lfig,page=3]{\pdf}
+\caption{A caption for the even larger graph}
+\note{A note for the larger graph. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus.}
+\label{f:appendix2}\end{figure}
+
+
+\subsection{Subsection with footnote and references}\label{a:subappendix}
+
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt if $\mathcal{V}^i > \mathcal{V}^r$ \citep{MS21b}.\footnote{The reference goes to its own reference list at the end of the appendix---unlike when the appendix was at the end of the main text.} Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. This results are summarized in a repository with the following URL: \url{https://github.com/pmichaillat/latex-paper}.
+
+\bibliography{\bib}
+\end{document}

@@ -1,0 +1,38 @@
+%%  Title 
+
+\pretitle{\begin{center}\bfseries\LARGE}
+
+%% Table of contents
+
+\usepackage[subfigure]{tocloft}
+\renewcommand{\contentsname}{}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftsecaftersnum}{.}
+\renewcommand{\cftsubsecaftersnum}{.}
+\renewcommand{\cftdotsep}{10}
+\setlength{\cftbeforesecskip}{0em}
+
+%% Headings 
+
+\titleformat{\section}{\centering\large\bfseries}{Appendix~\thesection.}{1em}{}
+\renewcommand{\thesection}{\Alph{section}}
+\newcommand{\sectionbreak}{\clearpage}
+
+%% Numbering (AER format)
+
+\renewcommand{\thetheorem}{A\arabic{theorem}}
+\renewcommand{\theproposition}{A\arabic{proposition}}
+\renewcommand{\thelemma}{A\arabic{lemma}}
+\renewcommand{\thecorollary}{A\arabic{corollary}}
+\renewcommand{\thedefinition}{A\arabic{definition}}
+\renewcommand{\theassumption}{A\arabic{assumption}}
+\renewcommand{\theremark}{A\arabic{remark}}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+\renewcommand{\theequation}{A\arabic{equation}}
+
+%%  Crossreferences 
+
+\usepackage{xr}
+
